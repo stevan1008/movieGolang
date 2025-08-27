@@ -60,5 +60,4 @@ func (h *Handler) Handle(w http.ResponseWriter, r *http.Request) {
 	default:
 		w.WriteHeader(http.StatusBadRequest)
 	}
-
 }
